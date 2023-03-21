@@ -2,3 +2,4 @@ gitProvider: bharathGithub
 artifactory: bharathArtifactory
 repoPath: bharath92/jfrog-pipelines-maven-sample
 deployerRepo: quickstarts-maven-local
+resolverRepo: maven-virtual
