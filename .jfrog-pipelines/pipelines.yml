@@ -12,6 +12,9 @@ resources:
     type: BuildInfo
     configuration:
       sourceArtifactory: {{ .Values.artifactory }}
+      # change this
+      buildName: deepika-test-sign
+      buildNumber: 10289
 
 pipelines:
   - name: Maven_Quickstart_demo
